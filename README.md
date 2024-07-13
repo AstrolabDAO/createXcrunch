@@ -20,8 +20,6 @@ cd createXcrunch
 cargo build --release
 ```
 
-> Building on Windows currently fails (see [this](https://github.com/HrikB/createXcrunch/issues/1) issue). If you want to continue using Windows, we recommend using the Windows Subsystem for Linux (WSL) and installing Rust via `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`.
-
 ## Example Setup on [Vast.ai](https://vast.ai)
 
 #### Update Linux
