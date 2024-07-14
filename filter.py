@@ -21,7 +21,7 @@ for line in sorted_lines:
     if len(parts) == 2:
         address = Web3.to_checksum_address(parts[1])
         if pattern is None or re.search(pattern, address):
-            print(f'\t"{parts[0]}": "{address}"')
+            print(f'\t"{parts[0]}": "{address}",')
     else:
         raise Exception(f'Invalid line: {line} - {parts}')
 # json end
